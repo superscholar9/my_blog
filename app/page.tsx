@@ -27,6 +27,12 @@ export default function JavaLearningBlog() {
       link: '/articles/java-oop',
       date: '2024-03-21'
     },
+    { 
+      id: 2, 
+      title: 'Javase', 
+      link: '/articles/java-se',
+      date: '2024-03-21'
+    },
     // 可以添加更多文章
   ]
 
@@ -226,7 +232,7 @@ export default function JavaLearningBlog() {
             <div className="space-y-4">
               <div className="flex items-center text-teal-100">
                 <User className="mr-2" size={18} />
-                <span>孙乐乐</span>
+                <span>sunlele</span>
               </div>
               <div className="flex items-center text-teal-100">
                 <Mail className="mr-2" size={18} />
